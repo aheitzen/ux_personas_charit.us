@@ -47,7 +47,18 @@ h3 {
 	text-align: center;
 	font-family: var(--oswald);
 	font-size: var(--middle-font);
+}
 
+h4 {
+	font-family: var(--merriweather);
+	color: var(--primary-color);
+	text-align: center;
+	font-size: var(--middle-font);
+	margin-top: 10px;
+}
+
+h4#pink-text {
+	color: var(--primary-pink);
 }
 
 span {
@@ -60,24 +71,6 @@ i.fa.fa-heart {
 	font-size: 30px;
 	color: var(--primary-pink);
 	width: 100%;
-}
-
-i.fa.fa-arrow-circle-o-down {
-	color: var(--primary-pink);
-	font-size: 80px;
-	text-align: center;
-	width: 100%;
-}
-
-i.fa.fa-arrow-down {
-	color: var(--primary-color);
-	font-size: 50px;
-	text-align: center;
-	width: 100%;
-	bottom: 0;
-	position: absolute;
-
-
 }
 
 a.button.ghost {
@@ -100,4 +93,46 @@ a.button.ghost:nth-child(3) {
 a.button.ghost:hover {
 	color: var(--primary-pink);
 	border: var(--primary-pink) solid 2px;
+}
+
+#about-me {
+	height: 67%;
+	width: 100%;
+	background: linear-gradient(90deg, black 50%, white 50%);
+}
+
+.cell.no-padding {
+	padding: 0;
+}
+
+img#about-img {
+	filter: grayscale(100%);
+}
+
+#my-stats {
+	height: 100%;
+	width: 100%;
+	background-color: red;
+}
+
+ul li {
+	margin: 30px;
+    list-style-type:circle;
+    color: black;
+    font-family: var(--merriweather);
+    font-size: 20px;
+}
+
+li.about-list {
+	color: black;
+}
+
+li.personal-list {
+	color: var(--primary-pink);
+}
+
+#future-goals {
+	height: 480px;
+	width: 100%;
+	background-color: var(--primary-pink);
 }
