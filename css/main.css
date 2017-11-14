@@ -15,7 +15,7 @@ html, body {
 }
 
 #hero {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/heroImg.jpg");
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/hero.png");
 	height: 100%;
 	width: 100%;
 	background-position: center center;
@@ -55,6 +55,31 @@ h4 {
 	text-align: center;
 	font-size: var(--middle-font);
 	margin-top: 10px;
+	text-align: center;
+}
+
+h5 {
+	color: var(--primary-color);
+	font-size: var(--middle-font);
+	font-family: var(--oswald);
+	margin-left: 30px;
+	
+}
+
+p {
+	color: var(--primary-color);
+	font-family: var(--merriweather);
+	text-align: center;
+	font-size: var(--middle-font);
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+#social-links-text {
+	color: black;
+	font-family: var(--oswald);
+	text-align: center;
+	margin-top: 10px;
 }
 
 h4#pink-text {
@@ -63,7 +88,6 @@ h4#pink-text {
 
 span {
 	color: var(--primary-pink);
-	
 }
 
 i.fa.fa-heart {
@@ -71,6 +95,19 @@ i.fa.fa-heart {
 	font-size: 30px;
 	color: var(--primary-pink);
 	width: 100%;
+}
+
+i.fa.fa-twitter-square, i.fa.fa-snapchat-square {
+	color: var(--primary-color);
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+i.fa.fa-facebook-square {
+	text-align: center;
+	color: var(--primary-color);
+	font-size: 30px;
+	margin-left: 0px;
 }
 
 a.button.ghost {
@@ -137,15 +174,33 @@ li.personal-list {
 	color: var(--primary-pink);
 }
 
+li.skills-list {
+	color: var(--primary-pink);
+}
+
 img#guitar {
 	height: 100%;
 	width: 100%;
 	filter: grayscale(100%);
-	
+}
+
+.margin-top-skills {
+	margin-top: 60px;
 }
 
 #future-goals {
-	height: 67%; /*480px*/
+	height: 67%; 
 	width: 100%;
 	background-color: var(--primary-pink);
+}
+
+#footer {
+	height: 30%;
+	width: 100%;
+	background-color: var(--primary-pink);
+}
+
+p#social-links {
+	width: auto;
+	text-align: center;
 }
