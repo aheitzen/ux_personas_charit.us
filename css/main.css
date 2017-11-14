@@ -1,0 +1,103 @@
+:root {
+	--primary-color: white;
+	--primary-pink: #ff0080;
+	--oswald: 'Oswald', sans-serif;
+	--merriweather: 'Merriweather', serif;
+	--jumbo-font: 100px;
+	--large-font: 80px;
+	--middle-font: 30px;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+
+}
+
+#hero {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/heroImg.jpg");
+	height: 100%;
+	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black; 
+}
+
+.block-center {
+	text-align: center;
+}
+
+h1 {
+	color: var(--primary-color);
+	text-align: center;
+	font-family: var(--oswald);
+	font-size: var(--jumbo-font);
+}
+
+h2 {
+	font-family: var(--merriweather);
+	color: var(--primary-color);
+	text-align: center;
+	font-size: var(--large-font);
+}
+
+h3 {
+	color: var(--primary-color);
+	text-align: center;
+	font-family: var(--oswald);
+	font-size: var(--middle-font);
+
+}
+
+span {
+	color: var(--primary-pink);
+	
+}
+
+i.fa.fa-heart {
+	text-align: center;
+	font-size: 30px;
+	color: var(--primary-pink);
+	width: 100%;
+}
+
+i.fa.fa-arrow-circle-o-down {
+	color: var(--primary-pink);
+	font-size: 80px;
+	text-align: center;
+	width: 100%;
+}
+
+i.fa.fa-arrow-down {
+	color: var(--primary-color);
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+
+
+}
+
+a.button.ghost {
+	color: var(--primary-color);
+	border: var(--primary-color) solid 2px;
+	text-align: center;
+	font-family: var(--merriweather);
+	font-size: 25px;
+	margin-top: 40px;
+}
+
+a.button.ghost:nth-child(2) {
+	margin-left: 30px;
+}
+
+a.button.ghost:nth-child(3) {
+	margin-left: 30px;
+}
+
+a.button.ghost:hover {
+	color: var(--primary-pink);
+	border: var(--primary-pink) solid 2px;
+}
