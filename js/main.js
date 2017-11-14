@@ -14,10 +14,4 @@ $(document).ready(function (){
           scrollTop: $("#future-goals").offset().top
         }, 1000);
     });
-   //  $("#charityLink").click(function (){
-   //    $('html, body').animate({
-   //        scrollTop: $("#charitySection").offset().top
-   //      }, 1000);
-   //  });
-
 });
